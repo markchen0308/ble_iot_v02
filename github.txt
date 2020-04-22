@@ -1,0 +1,5 @@
+git config --global user.email "simonchen0308@gmail.com"
+git config --global user.name "markchen0308"
+
+git remote add master https://github.com/markchen0308/ble_iot_v02.git
+

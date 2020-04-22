@@ -1,0 +1,15 @@
+install yarn instead of npm
+
+$curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+$sudo apt update
+$sudo apt install yarn
+$yarn --version
+
+
+yarn init create a project
+yarn install	安裝 json.package 所有依賴
+yarn add [paakage]	儲存在 json.package中的dependencies
+yarn global add [package]	安裝在電腦全域中
+yarn remove [package]	移除dependencies某套件
+yarn upgrade	更新node_modules
